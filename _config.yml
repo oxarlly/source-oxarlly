@@ -125,16 +125,3 @@ aplayer:
   asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
   #externalLink: http://xxx/aplayer.min.js       # 老版本参数，功能与参数 cdn 相同meting: true
 
-admin:
-  username: username
-  password_hash: $2a$10$hCGxrYfy73p0XVnBIpTNAOPlHBcAUlm4YfKzSc.ONSg0QpgE9mIdS
-  secret: my super secret phrase
-
-plugins:
-  - hexo-admin
-
-hexo_admin:
-  host: 0.0.0.0
-  port: 4000
-
-skip_render: admin/**/*
